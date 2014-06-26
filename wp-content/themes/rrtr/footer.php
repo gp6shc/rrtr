@@ -18,7 +18,6 @@
 			<div class="footer-socket-wrapper clearfix">
 				<div class="inner-wrap">
 					<div class="footer-socket-area">
-						<?php do_action( 'spacious_footer_copyright' ); ?>
 						<nav class="small-menu" class="clearfix">
 							<?php
 								if ( has_nav_menu( 'footer' ) ) {									

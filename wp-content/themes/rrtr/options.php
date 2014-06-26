@@ -200,52 +200,7 @@ function optionsframework_options() {
 		'type' 	=> 'upload'
 	);
 
-	/*************************************************************************/
-
-	$options[] = array(
-		'name' => __( 'Slider', 'spacious' ),
-		'type' => 'heading'
-	);
-
-	// Slider activate option
-	$options[] = array(
-		'name' 		=> __( 'Activate slider', 'spacious' ),
-		'desc' 		=> __( 'Check to activate slider.', 'spacious' ),
-		'id' 			=> 'spacious_activate_slider',
-		'std' 		=> '0',
-		'type' 		=> 'checkbox'
-	);
-
-	// Slide options
-	for( $i=1; $i<=5; $i++) {
-		$options[] = array(
-			'name' 	=>	sprintf( __( 'Image Upload #%1$s', 'spacious' ), $i ),
-			'desc' 	=> __( 'Upload slider image.', 'spacious' ),
-			'id' 		=> 'spacious_slider_image'.$i,
-			'type' 	=> 'upload'
-		);
-		$options[] = array(
-			'name' 	=> sprintf( __( 'Slider Title %1$s', 'spacious' ), $i ),
-			'desc' 	=> __( 'Enter title for your slider.', 'spacious' ),
-			'id' 		=> 'spacious_slider_title'.$i,
-			'std' 	=> '',
-			'type' 	=> 'text'
-		);
-		$options[] = array(
-			'name' 	=> sprintf( __( 'Slider Description %1$s', 'spacious' ), $i ),
-			'desc' 	=> __( 'Enter your slider description.', 'spacious' ),
-			'id' 		=> 'spacious_slider_text'.$i,
-			'std' 	=> '',
-			'type' 	=> 'textarea'
-		);
-		$options[] = array(
-			'name' 	=> sprintf( __( 'Slider redirect link %1$s', 'spacious' ), $i ),
-			'desc' 	=> __( 'Enter link to redirect slider when clicked', 'spacious' ),
-			'id' 		=> 'spacious_slider_link'.$i,
-			'std' 	=> '',
-			'type' 	=> 'text'
-		);
-	}	
+	
 
 	return $options;
 }

@@ -25,8 +25,6 @@ function my_remove_recent_comments_style() {
 	global $wp_widget_factory;
 	remove_action('wp_head', array($wp_widget_factory->widgets['WP_Widget_Recent_Comments'], 'recent_comments_style'));
 }
-
-
 // =========================================================================
 // REMOVE jQuery.migrate.js from header (no need, already loaded)
 // =========================================================================
@@ -42,7 +40,6 @@ function dequeue_jquery_migrate( &$scripts){
 
 
 add_action( 'wp_enqueue_scripts', 'spacious_scripts_styles_method' );
-//register jquery
 
 // =========================================================================
 // LOAD STYLESHEETS & SCRIPTS
@@ -67,10 +64,8 @@ function spacious_scripts_styles_method() {
 	/**
 	 * Register JQuery cycle js file for slider.
 	 */
-	wp_register_script( 'jquery_cycle', SPACIOUS_JS_URL . '/jquery.cycle.all.min.js', array( 'jquery' ), '2.9999.5', true );
+	wp_register_script( 'jquery_cycle', get_template_directory_uri().'/assets/js/jquery.cycle.all.min.js', array( 'jquery' ), '2.9999.5', true );
 	//wp_enqueue_script( 'wow', get_template_directory_uri() . '/assets/js/wow.min.js', array('jquery'), '1.0.0', true );
-
-    //wp_register_style( 'google_fonts', 'http://fonts.googleapis.com/css?family=Lato' ); 
 	
 	/**
 	 * Enqueue Slider setup js file.	 
@@ -78,7 +73,8 @@ function spacious_scripts_styles_method() {
 	//if ( is_home() || is_front_page() && of_get_option( 'spacious_activate_slider', '0' ) == '1' ) {
 	//	wp_enqueue_script( 'spacious_slider', SPACIOUS_JS_URL . '/spacious-slider-setting.js', array( 'jquery_cycle' ), false, true );
 	//}
-	//wp_enqueue_script( 'spacious-navigation', SPACIOUS_JS_URL . '/navigation.js', array( 'jquery' ), false, true );
+	//wp_enqueue_script( 'spacious-navigation', get_template_directory_uri().'/assets/js/navigation.js', array( 'jquery' ), false, true );
+	wp_enqueue_script( 'spacious-navigation', get_template_directory_uri().'/assets/js/min/scripts-ck.js', array( 'jquery' ), false, true );
 	//wp_enqueue_script( 'spacious-custom', SPACIOUS_JS_URL. '/spacious-custom.js', array( 'jquery' ) );
 
 	//wp_enqueue_style( 'google_fonts' );
