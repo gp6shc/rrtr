@@ -1,0 +1,54 @@
+/* =Media Queries - breakpoint targeting
+-------------------------------------------------------------- */
+
+$phone-portrait: 320px;
+$phone-landscape: 480px;
+
+
+
+/* Breakpoint description - above 1600px (presentation screens)
+-------------------------------------------------------------- */
+@media screen and (min-width: 1600px) {
+
+}
+
+
+
+
+/* Breakpoint description - above 768px (above mobile nav)
+-------------------------------------------------------------- */
+@media screen and (min-width: 768px) {
+
+}
+
+
+
+
+/* Breakpoint description - below 900, above 769 (fix nav bug)
+-------------------------------------------------------------- */
+@media (max-width:900px) and (min-width:769px) {
+
+}
+
+
+
+
+/* Breakpoint description - below 768 (below mobile nav)
+-------------------------------------------------------------- */
+@media screen and (max-width: 768px) { 
+	
+}
+
+
+
+/* Breakpoint description - below 480 (landscape)
+-------------------------------------------------------------- */
+@media screen and (max-width: $phone-landscape) { 
+	
+}
+
+/* Breakpoint description - below 320 (portrait)
+-------------------------------------------------------------- */
+@media screen and (max-width: $phone-portrait) { 
+
+}

@@ -1,0 +1,25 @@
+/* =Global.scss - import & define global project variables, mixins, etc.
+-------------------------------------------------------------- */
+
+// brand specific colors
+$lk-brand: #eb068b; //lauren's kids pink
+$lk-accent: #00959b; //lauren's kids teal
+$ssk-brand: #9fdeec; //ssk light blue (logo color)
+$ssk-accent: #00abd3; //ssk dark blue
+
+// typical colors
+$white: #fff;
+$dark: #444;
+
+// sizes
+$rounded: 4px;
+$top-nav: 10px;
+
+// shadows
+$shadow-three: -3px 3px rgba(0, 0, 0, 0.1);
+$shadow-five: -5px 5px rgba(0, 0, 0, 0.1);
+
+// fonts
+@import url("http://fonts.googleapis.com/css?family=Lato");
+$base: 16px 'Lato', sans-serif, Arial;
+$code: 14px 'Courier 10 Pitch',Courier,monospace;

@@ -1,0 +1,6 @@
+#Untracked Files
+
+wp-config.php
+.htaccess
+.DS_Store
+/uploads/*
