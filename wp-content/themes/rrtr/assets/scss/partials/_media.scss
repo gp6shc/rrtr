@@ -21,15 +21,29 @@ $phone-landscape: 480px;
 	.inner-wrap{
 		width: 84%;
 	}
+	.main-navigation {
+		padding-top: 40px;
+	}
+	p.home{
+		padding: 0px 100px;
+	}
 }
 
 
 
 
-/* Breakpoint description - below 900, above 769 (fix nav bug)
+/* Breakpoint description - below 993, above 769 (fix nav sizing issue on large tablets)
 -------------------------------------------------------------- */
-@media (max-width:900px) and (min-width:769px) {
-
+@media (max-width:993px) and (min-width:769px) {
+	.inner-wrap{
+		width: 96%;
+	}
+	.main-navigation ul li{
+		padding: 0 0 0 16px;
+		a {
+			font-size: 12px;
+		}
+	}
 }
 
 
@@ -38,7 +52,25 @@ $phone-landscape: 480px;
 /* Breakpoint description - below 768 (below mobile nav)
 -------------------------------------------------------------- */
 @media screen and (max-width: 768px) { 
-	
+	.header-post-title-container{
+		background-repeat: no-repeat;
+		background-position: top!important;
+		background-size: contain;
+	}
+	#main.clearfix.forpage {
+		padding: 0px 0;
+		margin-top: -60px;
+	}
+	#jbweatherwidget-2{
+		display: none; //hide weather widget 
+	}
+	#enhancedtextwidget-2{ //center license/contractor section
+		display: block;
+		position: relative;
+		max-width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
 }
 
 
@@ -46,7 +78,9 @@ $phone-landscape: 480px;
 /* Breakpoint description - below 480 (landscape)
 -------------------------------------------------------------- */
 @media screen and (max-width: $phone-landscape) { 
-	
+	#main.clearfix.forpage {
+		margin-top: -120px;
+	}	
 }
 
 /* Breakpoint description - below 320 (portrait)
