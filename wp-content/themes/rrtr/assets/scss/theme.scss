@@ -11,14 +11,13 @@
 @import "base/layout";
 @import "base/form";
 
-
 // Partials 
 @import "partials/grids";
 @import "partials/media";
-//@import "partials/left-sidebar";
 
 // Third-party 
 @import "vendor/flexslider";
 @import "vendor/font-awesome";
-
+@import "vendor/weather"; //weather widget in footer
+@import "vendor/weather-jquery-ui"; 
 

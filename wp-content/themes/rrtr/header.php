@@ -100,7 +100,7 @@
 					<?php 
 					if( '' != spacious_header_title() ) {
 					?>
-				   	<h1 class="header-post-title-class"><?php echo spacious_header_title(); ?></h1>
+				   
 				   <?php
 					}
 					?>
@@ -114,5 +114,13 @@
 	</header>
 	<?php do_action( 'spacious_after_header' ); ?>
 	<?php do_action( 'spacious_before_main' ); ?>
+	<?php if ( is_page( '22' ) ){  // if is homepage ?>
 	<div id="main" class="clearfix">
+	<?php } else { //  ?>
+	<div id="main" class="clearfix forpage">
+	<?php } ?>
 		<div class="inner-wrap">
+		
+		
+		
+		

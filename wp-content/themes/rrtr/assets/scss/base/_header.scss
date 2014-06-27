@@ -37,7 +37,7 @@ h1#site-title {
 	padding-bottom: 5px;
 }
 #site-title a:hover {
-	color: #0FBE7C;
+	color: $brand-main;
 }
 #site-description {
 	line-height: 24px;
@@ -74,7 +74,7 @@ h1#site-title {
 	width: 150px;
 }
 #search-form span {
-	background-color: #0FBE7C;
+	background-color: $brand-main;
 	height: 32px;
 	width: 30px;
 	line-height: 40px;
@@ -111,7 +111,7 @@ nav li > ol {
 	float: left;
 	position: relative;
 	padding: 0 0 0 25px;
-	font-family: $base;
+	font: $base;
 }
 .main-navigation ul li a {
 	font-size: 14px;
@@ -125,16 +125,23 @@ li.default-menu {
 	text-transform: uppercase;
 	display: block;
 	float: left;
-	padding: 16px 0 0;	
-	height: 30px;
+	line-height: 26px;
+	height: 26px;
+	padding: 0px 0px;
 }
-.main-navigation a:hover, 
+ 
 .main-navigation ul li.current-menu-item a, 
 .main-navigation ul li.current_page_ancestor a, 
 .main-navigation ul li.current-menu-ancestor a, 
-.main-navigation ul li.current_page_item a,
-.main-navigation ul li:hover > a {
-	color: $brand-main;
+.main-navigation ul li.current_page_item a {
+	color: $white;
+	background: url('../img/nav-rect.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center right;
+	line-height: 26px;
+	height: 26px;
+	padding: 0px 15px;
 }
 
 /* =DROP DOWN 
@@ -157,7 +164,7 @@ li.default-menu {
 .main-navigation ul li ul {
 	position: absolute;	
 	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
-	border-top: 1px solid #0FBE7C;
+	border-top: 1px solid $brand-main;
 	top: 45px;
 	left: 25px;
 	width: 150px;
@@ -200,7 +207,7 @@ li.default-menu {
 	cursor: pointer;
 }
 .site-header .menu-toggle {
-	background: $brand-main;
+	background: lighten($brand-main,5%);
 	color: $white;
 	font-size: 20px;
 	font-weight: 300;
@@ -244,7 +251,7 @@ li.default-menu {
 }
 .main-small-navigation ul > .current_page_item,
 .main-small-navigation ul > .current-menu-item {
-  background: #0FBE7C;
+  background: $brand-accent;
 }
 
 /* =SECONDARY MENUS 
@@ -255,7 +262,7 @@ li.default-menu {
 .small-menu li {
 	float: left;
 	position: relative;
-	font-family: $base;
+	font: $base;
 }
 .small-menu li.default-menu, 
 li.default-menu {

@@ -1,10 +1,7 @@
 <?php 
 /**
  * Theme Page Section for our theme.
- *
- * @package ThemeGrill
- * @subpackage Spacious
- * @since Spacious 1.0
+
  */
 ?>
 

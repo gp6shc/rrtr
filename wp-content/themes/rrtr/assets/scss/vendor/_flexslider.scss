@@ -202,56 +202,28 @@ html[xmlns] .slides {
 }
 
 
-/* FlexSlider Default Theme
-*********************************/
-.flexslider {
-    margin: 0 0 15px;
-    background: transparent;
-}
-
-.flex-viewport {
-    max-height: 2000px;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    transition: all 1s ease;
-}
-
-.loading .flex-viewport {
-    max-height: 300px;
-}
-
-.flexslider .slides {
-    zoom: 1;
-}
-
-.carousel li {
-    margin-right: 5px;
-}
-
-
-/* Direction Nav */
-/* FlexSlider Default Theme
+/* FlexSlider
 *********************************/
 .flexslider  {
-     margin:  0 0 60px;
-     background:  #fff;
-      position:  relative;
-     zoom:  1;
+     margin: 0px;
+     background: transparent;
+     position:  relative;
+     zoom: 1;
 }
 
 .flex-viewport  {
-    max-height:  2000px;
-     -webkit-transition:  all 1s ease;
-     -moz-transition:  all 1s ease;
-     transition:  all 1s ease;
+    max-height: 2000px;
+     -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+     transition: all 1s ease;
 }
 
 .loading .flex-viewport  {
-    max-height:  300px;
+    max-height: 300px;
 }
 
 .flexslider .slides  {
-    zoom:  1;
+    zoom: 1;
 }
 
 
@@ -317,6 +289,7 @@ html[xmlns] .slides {
 
 /* Control Nav */
 .flex-control-nav  {
+	display: none!important;
     width:  100%;
      position:  absolute;
      bottom:  -40px;
