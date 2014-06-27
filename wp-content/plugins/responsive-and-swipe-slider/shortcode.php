@@ -16,24 +16,24 @@ function rsSlider_shortcode($atts) {
 	$postid = $atts['id'];
 
 	// JAVASCRIPT
-	$out = "
-	<script type='text/javascript'>
-		jQuery(document).ready(function($){
+	//$out = "
+	//<script type='text/javascript'>
+	//	jQuery(document).ready(function($){
 
-			  $('.flexslider').flexslider({
-				animation: 'slide',
-				start: function(slider){
-				  $('#containerFlexDiv').height('auto');
-				  $('.loading_rsSlider').hide();
-				}
-			  });
-		";
+	//		  $('.flexslider').flexslider({
+	//			animation: 'slide',
+	//			start: function(slider){
+	//			  $('#containerFlexDiv').height('auto');
+	//			  $('.loading_rsSlider').hide();
+	//			}
+	//		  });
+	//	";
 
 	// End Javascript
-	$out .= "
-		});
-	</script>
-	";
+	//$out .= "
+	//	});
+	//</script>
+	//";
 	
 	$metaSliders 		= get_post_meta($postid, 'rsSlider_repeatable', true); 
 	$meta_thumbnail	 	= get_post_meta($postid, 'meta_box_select_rsthumb', true); 

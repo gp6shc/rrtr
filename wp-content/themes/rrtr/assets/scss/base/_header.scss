@@ -4,10 +4,10 @@
 }
 #header-meta {
 	background-color: #F8F8F8;
-	border-bottom: 1px solid #EAEAEA;
+	border-bottom: 1px solid $border;
 }
 #header-text-nav-container {
-	border-bottom: 1px solid #EAEAEA;
+	border-bottom: 1px solid $border;
 }
 #header-text-nav-wrap {
 	padding-top: 15px;
@@ -61,7 +61,7 @@ h1#site-title {
 
 .header-image {
 	margin-bottom: 0;
-	border-bottom: 1px solid #EAEAEA;
+	border-bottom: 1px solid $border;
 	width: 100%;
 }
 
@@ -164,7 +164,7 @@ li.default-menu {
 }
 .main-navigation ul li ul li {
 	float: none;
-	border-bottom: 1px solid #EAEAEA;
+	border-bottom: 1px solid $border;
 	padding: 0;
 }
 .main-navigation ul li ul li a, 

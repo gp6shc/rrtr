@@ -931,3 +931,17 @@
   }  
 
 })(jQuery);
+
+
+//FlexSlider: init and load
+jQuery(document).ready(function($){
+
+			  $('.flexslider').flexslider({
+				animation: 'slide',
+				start: function(slider){
+				  $('#containerFlexDiv').height('auto');
+				  $('.loading_rsSlider').hide();
+				}
+			  });
+		
+		});

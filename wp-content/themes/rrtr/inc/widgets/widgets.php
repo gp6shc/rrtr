@@ -44,28 +44,6 @@ function spacious_widgets_init() {
 	) );	
 
 
-	// Registering contact Page sidebar
-	register_sidebar( array(
-		'name' 				=> __( 'Contact Page Sidebar', 'spacious' ),
-		'id' 					=> 'spacious_contact_page_sidebar',
-		'description'   	=> __( 'Shows widgets on Contact Page Template.', 'spacious' ),
-		'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  	=> '</aside>',
-		'before_title'  	=> '<h3 class="widget-title"><span>',
-		'after_title'   	=> '</span></h3>'
-	) );
-
-	// Registering Error 404 Page sidebar
-	register_sidebar( array(
-		'name' 				=> __( 'Error 404 Page Sidebar', 'spacious' ),
-		'id' 					=> 'spacious_error_404_page_sidebar',
-		'description'   	=> __( 'Shows widgets on Error 404 page.', 'spacious' ),
-		'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  	=> '</aside>',
-		'before_title'  	=> '<h3 class="widget-title"><span>',
-		'after_title'   	=> '</span></h3>'
-	) );
-
 	// Registering footer sidebar one
 	register_sidebar( array(
 		'name' 				=> __( 'Footer Area One', 'spacious' ),
@@ -101,7 +79,7 @@ function spacious_widgets_init() {
 
 	// Registering footer sidebar four
 	register_sidebar( array(
-		'name' 				=> __( 'Footer Area Four', 'spacious' ),
+		'name' 				=> __( 'Final Call to Action (below footer)', 'spacious' ),
 		'id' 					=> 'spacious_footer_sidebar_four',
 		'description'   	=> __( 'Shows widgets at footer sidebar four.', 'spacious' ),
 		'before_widget' 	=> '<aside id="%1$s" class="widget %2$s">',

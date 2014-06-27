@@ -19,7 +19,7 @@
 
 					<?php if ( ! dynamic_sidebar( 'spacious_error_404_page_sidebar' ) ) : ?>				
 						<header class="page-header">
-							<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'spacious' ); ?></h1>
+							<h1 class="page-title"><?php _e( 'That page can&rsquo;t be found.', 'spacious' ); ?></h1>
 						</header>
 						<p><?php _e( 'It looks like nothing was found at this location. Try the search below.', 'spacious' ); ?></p>
 						<?php get_search_form(); ?>
