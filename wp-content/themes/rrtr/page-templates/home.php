@@ -23,8 +23,13 @@
 						</div>
 						
 						<!-- Request Form -->
-						<div class="grid_4 omega">
-							<p>form goes here</p>
+						<div id="form-wrap" class="grid_4 omega">
+							<div id="form">
+								<?php echo do_shortcode( '[contact-form-7 id="49" title="Contact form 1"]' ); ?>
+								<script>
+									document.getElementById('drop-down').firstChild.innerHTML = "I need an estimate on...";
+								</script>
+							</div>
 						</div>
 
 						<div class="clearfix"></div>

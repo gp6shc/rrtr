@@ -1,0 +1,126 @@
+#form-wrap {
+	background-color: $brand-main;
+	
+}
+
+#form {
+	width: 90%;
+	margin: 0 auto;
+	padding: 25px 0;
+	
+	input {
+		border: 1px solid white;
+		border-radius: 0;
+		background-color: white;
+		padding: 2%;
+	}
+}
+
+#form-name {
+	width: 48%;
+	float: left;
+	line-height: 1;
+	
+	input {
+		width: 96%;
+		margin-bottom: 10px;
+	}
+}
+
+#form-number {
+	width: 48%;
+	float: right;
+	line-height: 1;
+	
+	input {
+		width: 96%;
+		height: 20px;
+		margin-bottom: 10px;
+	}
+}
+
+#form-mail {
+	width: 100%;
+	clear: both;
+	line-height: 1;
+	
+	input {
+		width: 98%;
+		padding: 1%;
+		margin-bottom: 10px;		
+	}
+	
+}
+
+#form-pref {
+	line-height: 1;
+	color: white;
+	
+	p {
+		display: inline-block;
+		font-size: 16px;
+		text-align: left;
+		margin-bottom: 5px;
+	}
+}
+
+#form-subject {
+	line-height: 1;
+	width: 100%;
+	text-align: left;
+	
+	span {
+		width: 100%;
+	}
+
+	select {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
+
+#form-comment {
+	line-height: 1;
+	
+	textarea {
+		margin-bottom: 10px;
+		resize: none;
+		
+	}
+	
+	textarea[style] {
+		height: 100px !important;
+		width: 97% !important;
+	}
+}
+
+#form-submit {
+	line-height: 1;
+				
+	input {
+		text-align: left;
+		align-items: stretch;
+		margin: 0;
+		background-color: lighten($brand-main,5%);
+		border: none;
+		border-radius: 20px;
+		font-size: 20px;
+		padding: 8px 15px;
+	}
+	
+	img.ajax-loader {
+		display: none;
+	}	
+}
+
+div.wpcf7-response-output {
+	line-height: 1;
+	color: white;
+}
+
+span.wpcf7-not-valid-tip {
+	color: red;
+	font-size: 12px;
+	line-height: 1;
+	text-align: left;
+}
