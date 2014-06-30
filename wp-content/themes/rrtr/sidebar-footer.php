@@ -28,7 +28,7 @@ if( !is_active_sidebar( 'spacious_footer_sidebar_one' ) &&
 				endif;
 				?>
 			</div>
-			<div class="tg-one-third tg-column-2">
+			<div class="tg-one-third tg-column-2 form-wrap">
 				<?php
 				// Calling the footer sidebar if it exists.
 				if ( !dynamic_sidebar( 'spacious_footer_sidebar_two' ) ):

@@ -1,9 +1,9 @@
-#form-wrap {
+.form-wrap {
 	background-color: $brand-main;
 	
 }
 
-#form {
+.form {
 	width: 90%;
 	margin: 0 auto;
 	padding: 25px 0;
@@ -16,7 +16,11 @@
 	}
 }
 
-#form-name {
+.screen-reader-response {
+	display: none;
+}
+
+.form-name {
 	width: 48%;
 	float: left;
 	line-height: 1;
@@ -27,7 +31,7 @@
 	}
 }
 
-#form-number {
+.form-number {
 	width: 48%;
 	float: right;
 	line-height: 1;
@@ -39,7 +43,7 @@
 	}
 }
 
-#form-mail {
+.form-mail {
 	width: 100%;
 	clear: both;
 	line-height: 1;
@@ -52,7 +56,7 @@
 	
 }
 
-#form-pref {
+.form-pref {
 	line-height: 1;
 	color: white;
 	
@@ -64,7 +68,7 @@
 	}
 }
 
-#form-subject {
+.form-subject {
 	line-height: 1;
 	width: 100%;
 	text-align: left;
@@ -76,10 +80,13 @@
 	select {
 		width: 100%;
 		margin-bottom: 10px;
+		border: 1px solid #DDDDDD;
+		color: #666666;
+		padding: 2%;
 	}
 }
 
-#form-comment {
+.form-comment {
 	line-height: 1;
 	
 	textarea {
@@ -94,7 +101,7 @@
 	}
 }
 
-#form-submit {
+.form-submit {
 	line-height: 1;
 				
 	input {
