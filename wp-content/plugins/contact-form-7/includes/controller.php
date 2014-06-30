@@ -230,7 +230,7 @@ if ( WPCF7_LOAD_CSS )
 
 function wpcf7_enqueue_styles() {
 	wp_enqueue_style( 'contact-form-7',
-		wpcf7_plugin_url( 'includes/css/styles.css' ),
+		//wpcf7_plugin_url( 'includes/css/styles.css' ),
 		array(), WPCF7_VERSION, 'all' );
 
 	if ( wpcf7_is_rtl() ) {

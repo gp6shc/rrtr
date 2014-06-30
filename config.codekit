@@ -5217,6 +5217,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/rrtr\/assets\/css\/theme.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/rrtr\/assets\/css\/theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/rrtr\/assets\/img\/about-header.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12169,7 +12178,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Mike Reinhard",
+"lastSavedByUser": "Brian",
 "manualImportLinks": {
 	},
 "projectAttributes": {
