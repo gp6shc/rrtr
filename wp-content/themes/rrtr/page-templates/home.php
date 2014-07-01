@@ -15,7 +15,7 @@
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<?php do_action( 'spacious_before_post_content' ); ?>
-					<div class="entry-content clearfix">
+					<div class="clearfix">
 					<div id="top-wrapper">
 						<!-- Homepage Slider -->
 						<div class="grid_8">

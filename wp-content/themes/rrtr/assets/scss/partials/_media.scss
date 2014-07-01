@@ -27,8 +27,11 @@ $phone-landscape: 480px;
 	}
 	#top-wrapper{
 		height: 534px; //fixed height for slider image height issue (will revert to height:auto below this brk pt.)
-		margin-bottom: 30px;
 	}
+	.pushin{
+		padding: 0px 120px;
+	}
+
 }
 
 
@@ -77,6 +80,10 @@ $phone-landscape: 480px;
 	.form{
 		width: 92%;
 		padding: 15px 4%;
+	}
+	#feature-boxes .grid_3{
+		width: 48%;
+		margin: 1%;
 	}
 }
 
