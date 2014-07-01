@@ -34,7 +34,7 @@
 							
 								var ref = document.getElementsByClassName('form-referral');
 									for (var i = 0; i < ref.length; i++) {
-										ref[i].firstChild.firstChild.firstChild.innerHTML = "Heard about you...";
+										ref[i].firstChild.firstChild.firstChild.innerHTML = "How did you hear about us...";
 									}
 
 								var faGlyph = document.getElementsByClassName('wpcf7-list-item');

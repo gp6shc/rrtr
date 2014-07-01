@@ -94,7 +94,10 @@ $phone-landscape: 480px;
 @media screen and (max-width: $phone-landscape) { 
 	#main.clearfix.forpage {
 		margin-top: -120px;
-	}	
+	}
+	#final-call h5 b {
+		font-size: 22px;
+	}
 }
 
 /* Breakpoint description - below 320 (portrait)
@@ -102,6 +105,8 @@ $phone-landscape: 480px;
 @media screen and (max-width: $phone-portrait) { 
 
 }
+
+
 
 
 
