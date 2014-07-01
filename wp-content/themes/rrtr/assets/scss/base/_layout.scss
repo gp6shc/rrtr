@@ -29,7 +29,7 @@ h4 { font-size: 22px; line-height: 28px; }
 h5 { font-size: 20px; line-height: 26px; }
 h6 { font-size: 18px; line-height: 24px; }
 hr {
-	border-color: rgba(255,255,255,0.3);
+	border-color: lighten(#666, 40%);
 	border-style: solid none none;
 	border-width: 2px 0 0;
 	height: 0;
@@ -1375,7 +1375,7 @@ a#scroll-up:hover {
 	.tg-after-two-blocks-clearfix {
 		clear: both;;
 	}
-	.tg-after-three-blocks-clearfix {
+	.tg-after-tee-blocks-clearfix {
 		clear: none;
 	}
 }
