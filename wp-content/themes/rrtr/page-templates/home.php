@@ -46,16 +46,16 @@
 						<!-- Feature Boxes -->
 						<article id="feature-boxes">
 							<div class="grid_3">
-								<a href="<?php the_permalink(); ?>" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature1.jpg"></a>
+								<a href="<?php echo home_url(); ?>/what-to-expect" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature1.jpg"></a>
 							</div>
 							<div class="grid_3">
-								<a href="<?php the_permalink(); ?>" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature2.jpg"></a>
+								<a href="<?php echo home_url(); ?>/what-to-expect" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature2.jpg"></a>
 							</div>
 							<div class="grid_3">
-								<a href="<?php the_permalink(); ?>" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature3.jpg"></a>
+								<a href="<?php echo home_url(); ?>/what-to-expect/#warranty" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature3.jpg"></a>
 							</div>
 							<div class="grid_3 omega">
-								<a href="<?php the_permalink(); ?>" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature4.jpg"></a>
+								<a href="<?php echo home_url(); ?>/what-to-expect/#finance" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature4.jpg"></a>
 							</div>
 						</article>
 						<!-- //Feature Boxes -->
