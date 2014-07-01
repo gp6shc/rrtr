@@ -1,0 +1,39 @@
+.jbmww_wrapper {
+	margin-right: -63px;
+}
+
+.tg-column-2 {
+	overflow: hidden;
+	margin-bottom: 20px;
+} 
+
+.tg-column-3 {
+	
+	h5 {
+		font-size: 28px;
+		line-height: 1.2;
+	}
+	
+	h6 {
+		padding-bottom: 0;
+	}
+	
+}
+
+#final-call {
+	margin: 62px 0;
+	
+	.fa-phone {
+		color: $brand-main
+	}
+	
+	h5 {
+		font-size: 32px;
+		line-height: 1.5;
+		
+		b {
+			font-size: 36px;
+			
+		}
+	}
+}

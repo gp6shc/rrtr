@@ -13,11 +13,10 @@ $phone-landscape: 480px;
 }
 
 
-
-
 /* Breakpoint description - above 768px (above mobile nav)
 -------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
+
 	.inner-wrap{
 		width: 84%;
 	}
@@ -29,15 +28,24 @@ $phone-landscape: 480px;
 	}
 }
 
+//text in form fixes 
+
+@media screen and (min-width: 1166px) {
+	.form {
+		
+		h4 {
+			font-size: 1em
+		}
+	}
+	
+}
 
 
 
 /* Breakpoint description - below 993, above 769 (fix nav sizing issue on large tablets)
 -------------------------------------------------------------- */
 @media (max-width:993px) and (min-width:769px) {
-	.inner-wrap{
-		width: 96%;
-	}
+	
 	.main-navigation ul li{
 		padding: 0 0 0 16px;
 		a {
@@ -52,6 +60,11 @@ $phone-landscape: 480px;
 /* Breakpoint description - below 768 (below mobile nav)
 -------------------------------------------------------------- */
 @media screen and (max-width: 768px) { 
+	
+	.flexslider .slides img {
+		height: auto;
+	}
+	
 	.header-post-title-container{
 		background-repeat: no-repeat;
 		background-position: top!important;

@@ -1,12 +1,36 @@
 .form-wrap {
 	background-color: $brand-main;
-	
+}
+
+.flexslider .slides img {
+	height: 534px;
+}
+
+#test {
+	height: auto;
+	width: 100%;
+	background-color: $brand-main;
+	overflow: hidden;
 }
 
 .form {
 	width: 90%;
 	margin: 0 auto;
-	padding: 25px 0;
+	padding: 15px 0;
+	
+	h4 {
+		color: white;
+		font-size: 1.3em;
+		line-height: 1;
+		padding: 0 0 5px 0;
+	
+	}
+	
+	p {
+		color: white;
+		font-size: 16px;
+		
+	}
 	
 	input {
 		border: 1px solid white;
@@ -60,12 +84,25 @@
 	line-height: 1;
 	color: white;
 	
+	input {
+		border: 1px solid black;
+		border-radius: 50%;
+		background-color: black;
+	}
+	
 	p {
 		display: inline-block;
-		font-size: 16px;
+		font-size: 14px;
 		text-align: left;
 		margin-bottom: 5px;
 	}
+	
+	.wpcf7-list-item {
+		font-family: FontAwesome;
+		font-style: normal;
+		padding-left: 10px;
+	}
+
 }
 
 .form-subject {
@@ -81,6 +118,7 @@
 		width: 100%;
 		margin-bottom: 10px;
 		border: 1px solid #DDDDDD;
+		background-color: white;
 		color: #666666;
 		padding: 2%;
 	}
@@ -130,4 +168,37 @@ span.wpcf7-not-valid-tip {
 	font-size: 12px;
 	line-height: 1;
 	text-align: left;
+}
+
+
+// realtor call to action block //
+
+
+.grid_8 {
+	margin: 0;	
+	
+}
+
+#realtor {
+	width: 92%;
+	background-color: lighten($brand-main,5%);
+	padding: 15px 4%;
+	
+	h4 {
+		color: white;
+		font-size: 20px;
+	}
+	
+	a {
+		color: white;
+		width: intrinsic;
+		padding: 6px 10px; 
+		display: block;
+		background-color: $brand-main;
+		
+		&:hover {
+			text-decoration: none;
+			box-shadow: 0 0 2px rgba(0,0,0,0.6);
+		}
+	}
 }

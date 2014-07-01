@@ -29,7 +29,7 @@ h4 { font-size: 22px; line-height: 28px; }
 h5 { font-size: 20px; line-height: 26px; }
 h6 { font-size: 18px; line-height: 24px; }
 hr {
-	border-color: $border;
+	border-color: rgba(255,255,255,0.3);
 	border-style: solid none none;
 	border-width: 2px 0 0;
 	height: 0;
@@ -286,7 +286,6 @@ img {
 	max-width:100%;
 	height:auto;
 	vertical-align:top;
-	margin-bottom: 18px;
 }
 .entry-content img, .comment-content img, .widget img {
 	max-width: 100%; /* Fluid images for posts, comments, and widgets */
@@ -373,7 +372,7 @@ body {
 	padding-bottom: 30px;
 }
 #page {
-	max-width: 1268px;
+	width: auto;
 	margin: 0 auto;
 	background-color: #FFFFFF;
 	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
@@ -1051,16 +1050,7 @@ body {
 	font-size: 22px;
 	line-height: 32px;
 }
-#colophon, #colophon p {
-	font-size: 14px;
-	line-height: 18px;
-	text-align: left;
-}
-
-
-
-
-
+ 
 /* =FOOTER SOCKET AREA 
 ----------------------------------------------- */
 .footer-socket-wrapper {
@@ -1319,23 +1309,10 @@ a#scroll-up:hover {
 
 /* =RESPONSIVE STRUCTURE
 ----------------------------------------------- */
-@media screen and (max-width: 1308px) {
-	#page {
-		width: 97%;
-	}
-	.wide-1218 #page, .wide-978 #page {
-		width: 100%;
-	}
-	.inner-wrap {
-		width: 94%;
-	}
-}
+
 @media screen and (max-width: 1078px) {
 	body {
 		padding: 15px 0;
-	}
-	#page { 
-		width: 97%; 
 	}
 	.wide-1218 #page, .wide-978 #page {
 		width: 100%;
@@ -1403,6 +1380,7 @@ a#scroll-up:hover {
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 900px) {
+
 	#featured-slider .slider-title-head {
 		margin-bottom: 0;
 	}

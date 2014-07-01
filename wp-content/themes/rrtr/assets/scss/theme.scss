@@ -4,17 +4,19 @@
 
 /* @import
 -------------------------------------------------------------- */
+
+// Partials 
+@import "partials/grids";
+
 // Base
 @import "base/global"; //global variables & mixins
 @import "base/reset";
 @import "base/header";
-@import "base/footer";
 @import "base/layout";
 @import "base/page"; //interior pg (sidebar + pg headers + indiv. pg styles/overrides)
 @import "base/form";
+@import "base/footer";
 
-// Partials 
-@import "partials/grids";
 @import "partials/media";
 
 // Third-party 
