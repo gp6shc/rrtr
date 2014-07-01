@@ -16,7 +16,7 @@
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<?php do_action( 'spacious_before_post_content' ); ?>
 					<div class="entry-content clearfix">
-					<div id="test">
+					<div id="top-wrapper">
 						<!-- Homepage Slider -->
 						<div class="grid_8">
 							<?php echo do_shortcode('[rsSlider id="35"]'); ?>
@@ -36,6 +36,8 @@
 							</div>
 						</div>
 					</div>
+					
+					
 						<div class="clearfix"></div>
 						
 						<!-- Homepage Content -->
@@ -43,16 +45,16 @@
 
 						<!-- Feature Boxes -->
 						<article id="feature-boxes">
-							<div class="col3 push0">
+							<div class="grid_3">
 								<a href="<?php the_permalink(); ?>" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature1.jpg"></a>
 							</div>
-							<div class="col3 push3">
+							<div class="grid_3">
 								<a href="<?php the_permalink(); ?>" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature2.jpg"></a>
 							</div>
-							<div class="col3 push6">
+							<div class="grid_3">
 								<a href="<?php the_permalink(); ?>" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature3.jpg"></a>
 							</div>
-							<div class="col3 push9">
+							<div class="grid_3 omega">
 								<a href="<?php the_permalink(); ?>" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature4.jpg"></a>
 							</div>
 						</article>

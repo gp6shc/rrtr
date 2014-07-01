@@ -16,7 +16,6 @@ $phone-landscape: 480px;
 /* Breakpoint description - above 768px (above mobile nav)
 -------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
-
 	.inner-wrap{
 		width: 84%;
 	}
@@ -26,20 +25,11 @@ $phone-landscape: 480px;
 	p.home{
 		padding: 0px 100px;
 	}
-}
-
-//text in form fixes 
-
-@media screen and (min-width: 1166px) {
-	.form {
-		
-		h4 {
-			font-size: 1em
-		}
+	#top-wrapper{
+		height: 534px; //fixed height for slider image height issue (will revert to height:auto below this brk pt.)
+		margin-bottom: 30px;
 	}
-	
 }
-
 
 
 /* Breakpoint description - below 993, above 769 (fix nav sizing issue on large tablets)
@@ -84,6 +74,10 @@ $phone-landscape: 480px;
 		margin: 0 auto;
 		text-align: center;
 	}
+	.form{
+		width: 92%;
+		padding: 15px 4%;
+	}
 }
 
 
@@ -100,4 +94,35 @@ $phone-landscape: 480px;
 -------------------------------------------------------------- */
 @media screen and (max-width: $phone-portrait) { 
 
+}
+
+
+
+/* Fixing the form text */
+@media (max-width:1300px) and (min-width:1167px) {
+	.form h4{
+		font-size: 1.2em;
+	}
+	.form p, #realtor h4{
+		font-size: 15px;
+		line-height: 20px;
+	}
+}
+@media (max-width:1166px) and (min-width:1068px) {
+	.form h4{
+		font-size: 1.1em;
+	}
+	.form p, #realtor h4{
+		font-size: 14px;
+		line-height: 18px
+	}
+}
+@media (max-width:1067px) and (min-width:769px) {
+	.form h4{
+		font-size: 1.0em;
+	}
+	.form p, #realtor h4{
+		font-size: 13px;
+		line-height: 16px
+	}
 }
