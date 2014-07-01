@@ -187,3 +187,38 @@ ul.sidebar-menu{
 	width: 50%;
 }
 
+
+//Content Styling//
+
+.entry-content {
+	
+	h1 {
+		color: lighten($brand-main,5%);
+	}	
+	
+	ol {
+		list-style-type: decimal;
+		margin-bottom: 15px;
+	}
+	
+	ul {
+		list-style-type: circle;
+		margin-bottom: 15px;
+	}
+	
+	.form-wrap {
+		width: 100%;
+	}
+	
+	.form {
+		max-width: 400px;
+		min-width: 200px;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+
