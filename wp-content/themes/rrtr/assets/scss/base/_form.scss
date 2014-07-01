@@ -6,17 +6,21 @@
 	height: 534px;
 }
 
-#test {
+#top-wrapper {
+	position: relative;
 	height: auto;
-	width: 100%;
-	background-color: $brand-main;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	background-color: lighten($brand-main,5%);
 	overflow: hidden;
 }
-
 .form {
-	width: 90%;
+	width: 98%;
 	margin: 0 auto;
-	padding: 15px 0;
+	padding: 15px 4%;
+	overflow: hidden;
+	background-color: $brand-main;
 	
 	h4 {
 		color: white;
@@ -38,6 +42,10 @@
 		background-color: white;
 		padding: 2%;
 	}
+}
+
+.textwidget.widget-text .form{ //footer form (different width in footer than on homepage
+	width: 92%;
 }
 
 .screen-reader-response {
@@ -120,7 +128,7 @@
 		border: 1px solid #DDDDDD;
 		background-color: white;
 		color: #666666;
-		padding: 2%;
+		padding: 0; // set to 0 from Firefox/IE issue
 	}
 }
 
@@ -200,20 +208,20 @@ span.wpcf7-not-valid-tip {
 }
 
 #realtor {
-	width: 92%;
+	width: 100%;
 	background-color: lighten($brand-main,5%);
 	padding: 15px 4%;
+	overflow: hidden;
 	
 	h4 {
-		color: white;
-		font-size: 20px;
+		color: $white;
+		font-size: 18px;
 	}
 	
 	a {
 		color: white;
 		width: intrinsic;
 		padding: 6px 10px; 
-		display: block;
 		background-color: $brand-main;
 		
 		&:hover {

@@ -44,7 +44,6 @@ h1.feature, h3.feature{
 
 
 
-
 /* =TEXT ELEMENTS
 ----------------------------------------------- */
 p { 
@@ -1357,7 +1356,9 @@ a#scroll-up:hover {
 	}	
 	.tg-one-half, .tg-one-third, .tg-one-fourth {	
 		float: left;
-		width: 46.7684729%;
+		/*width: 46.7684729%;*/
+		width: 43.768473%;
+		margin-bottom: 30px;
 	}
 	.tg-one-half-last, .tg-one-fourth-last {
 		float: right;
