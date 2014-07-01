@@ -26,6 +26,28 @@
 																 ) );
 								}
 							?>
+							<script>
+								var subject = document.getElementsByClassName('form-subject');
+									for (var i = 0; i < subject.length; i++) {
+										subject[i].firstChild.firstChild.firstChild.innerHTML = "I need an estimate on...";
+									}
+							
+								var ref = document.getElementsByClassName('form-referral');
+									for (var i = 0; i < ref.length; i++) {
+										ref[i].firstChild.firstChild.firstChild.innerHTML = "Heard about you...";
+									}
+
+								var faGlyph = document.getElementsByClassName('wpcf7-list-item');
+									for (var i = 0; i < faGlyph.length; i++) {
+										if(i%2 === 0) {
+											faGlyph[i].firstChild.innerHTML = "&#xf003;";
+										}else{
+											faGlyph[i].firstChild.innerHTML = "&#xf095;";
+										}
+										
+									}
+								</script>
+
 		    			</nav>
 					</div>
 				</div>
