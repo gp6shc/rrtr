@@ -17,9 +17,10 @@
 					<?php do_action( 'spacious_before_post_content' ); ?>
 					<div class="team entry-content">
 						<?php the_content(); ?>
+						
+						<!-- Team Members
 						<h1 class="feature">Meet Our Leadership Team</h1>
 						
-						<!-- Team Member 1 -->
 						<div class="tg-one-half">
 							<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/about-team1.png"/>
 						</div>
@@ -31,7 +32,6 @@
 						<div style="clear:both;"></div>
 						<hr>
 						
-						<!-- Team Member 2 -->
 						<div class="tg-one-half">
 							<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/about-team3.png"/>
 						</div>
@@ -43,7 +43,6 @@
 						<div style="clear:both;"></div>
 						<hr>
 						
-						<!-- Team Member 3 -->
 						<div class="tg-one-half">
 							<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/about-team3.png"/>
 						</div>
@@ -53,7 +52,7 @@
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 						</div>
 						<div style="clear:both;"></div>
-						
+						-->
 						
 						
 						
