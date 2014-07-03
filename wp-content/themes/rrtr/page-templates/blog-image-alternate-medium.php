@@ -12,10 +12,11 @@
 
 <?php get_header(); ?>
 
-	<?php do_action( 'spacious_before_body_content' ); ?>
+	<?php the_content(); ?>
 
 	<div id="primary">
 		<div id="content" class="clearfix">
+
 			<?php
 			global $post;
 
@@ -29,7 +30,7 @@
 			else {
 				$paged = 1;
 			}
-			$blog_query = new WP_Query( array( 'post_type' => 'post', 'paged' => $paged ) );
+			$blog_query = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => '20', 'paged' => $paged ) );
 			$temp_query = $wp_query;
 			$wp_query = null;
 			$wp_query = $blog_query;

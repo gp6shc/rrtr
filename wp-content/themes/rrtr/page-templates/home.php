@@ -32,7 +32,7 @@
 							
 							<div id="realtor">
 								<h4><b>REALTORS: DON'T LOSE A SALE BECAUSE OF AN AGING ROOF</b></h4>
-								<a href="<?php the_permalink(); ?>">LEARN MORE</a>
+								<a href="<?php echo home_url(); ?>/realtors">LEARN MORE</a>
 							</div>
 						</div>
 					</div>

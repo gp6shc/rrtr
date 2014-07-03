@@ -78,7 +78,7 @@ ul.sidebar-menu{
 	}
 }
 
-.page-id-14{ //Resources page
+.page-id-14, .single, .single-post{ //Resources page & individual (single.php) blog aricles 
 	.header-post-title-container {
 		background: url('../img/resources-header.jpg');
 		background-position: center;
@@ -120,7 +120,7 @@ ul.sidebar-menu{
 
 /* =TESTIMONIALS SIDEBAR WIDGET
 ----------------------------------------------- */
-#enhancedtextwidget-6{
+#enhancedtextwidget-6, #secondary aside{
 	color: $white;
 	background: $brand-main;
 	h6{

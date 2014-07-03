@@ -12,7 +12,7 @@
 	max-width: 100%;
 	margin: 0 auto;
 	margin-bottom: 30px;
-	background-color: lighten($brand-main,5%);
+	background-color: $brand-accent;
 	overflow: hidden;
 }
 .form {
@@ -33,6 +33,7 @@
 	p {
 		color: white;
 		font-size: 16px;
+		line-height: 18px!important;
 		
 	}
 	
@@ -213,7 +214,7 @@ span.wpcf7-not-valid-tip {
 
 #realtor {
 	width: 100%;
-	background-color: lighten($brand-main,5%);
+	background-color: $brand-accent;
 	padding: 15px 4%;
 	overflow: hidden;
 	

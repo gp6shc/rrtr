@@ -16,11 +16,18 @@ $phone-landscape: 480px;
 /* Breakpoint description - above 768px (above mobile nav)
 -------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
+	#header-logo-image{
+		max-width: 78%;
+	}
 	.inner-wrap{
 		width: 84%;
 	}
 	.main-navigation {
 		padding-top: 40px;
+	}
+	.flexslider {
+	    margin: 0 0 0 1px;
+	    padding: 0;
 	}
 	p.home{
 		padding: 0px 100px;
@@ -37,7 +44,7 @@ $phone-landscape: 480px;
 
 /* Breakpoint description - below 993, above 769 (fix nav sizing issue on large tablets)
 -------------------------------------------------------------- */
-@media (max-width:993px) and (min-width:769px) {
+@media (max-width:1074px) and (min-width:769px) {
 	.main-navigation ul li{
 		padding: 0 0 0 16px;
 		a {
@@ -49,6 +56,7 @@ $phone-landscape: 480px;
 	}
 	
 }
+
 
 
 
@@ -86,7 +94,7 @@ $phone-landscape: 480px;
 	}
 	#feature-boxes .grid_3{
 		width: 48%;
-		margin: 1%;
+		margin: 0 1% 2% 1%;
 	}
 }
 
@@ -122,7 +130,7 @@ $phone-landscape: 480px;
 	}
 	.form p, #realtor h4{
 		font-size: 15px;
-		line-height: 20px;
+		line-height: 20px!important;
 	}
 }
 @media (max-width:1166px) and (min-width:1068px) {
@@ -131,7 +139,7 @@ $phone-landscape: 480px;
 	}
 	.form p, #realtor h4{
 		font-size: 14px;
-		line-height: 18px
+		line-height: 18px!important;
 	}
 }
 @media (max-width:1067px) and (min-width:769px) {
@@ -140,6 +148,6 @@ $phone-landscape: 480px;
 	}
 	.form p, #realtor h4{
 		font-size: 13px;
-		line-height: 16px
+		line-height: 16px!important;
 	}
 }

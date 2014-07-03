@@ -46,8 +46,8 @@ h1.feature, h3.feature{
 
 /* =TEXT ELEMENTS
 ----------------------------------------------- */
-p { 
-	line-height: 24px;
+p, .entry-content p { 
+	line-height: 25px!important;
 	margin-bottom: 15px;
 	font: $base;
 }
@@ -242,15 +242,17 @@ button:hover {
 }
 .previous a,
 .next a {
-   color: #666666;
-   padding: 5px 25px;
-	cursor: pointer;
+   color: $white;
+   padding: 10px 25px;
+   cursor: pointer;
    border: 1px solid $border;
+   background: $brand-main;
    font-size: 16px;
 }
 .previous a:hover,
 .next a:hover {
-	color: $brand-main;
+	color: $white;
+	text-decoration: underline;
 }
 input[type="reset"]:active, 
 input[type="button"]:active, 
@@ -447,7 +449,7 @@ body {
 .sticky {
 }
 #main {
-	padding: 40px 0;
+	padding: 20px 0;
 }
 .widget_service_block {
 	margin-bottom: 30px;
@@ -1186,7 +1188,10 @@ a#scroll-up:hover {
 /* =POST CONTENT 
 ----------------------------------------------- */
 #content .post, #content .page {
-	padding-bottom: 45px;
+	padding-bottom: 30px;
+}
+.page-id-14 #content .post, .page-id-14 #content .page {
+	border-bottom: 1px solid $border;
 }
 .single #content .post {
 	padding-bottom: 25px;
@@ -1194,9 +1199,6 @@ a#scroll-up:hover {
 .post .entry-title, .page .entry-title {
 	font-size: 26px;
 	line-height: 32px;
-}
-.post .entry-title a, .page .entry-title a {
-	color: #444444;
 }
 .post .entry-title a:hover, .page .entry-title a:hover {
 	color: $brand-main;
@@ -1206,6 +1208,9 @@ a#scroll-up:hover {
 }
 .entry-content ul {
 	list-style: square;
+}
+.entry-header{
+	padding-top: 20px;
 }
 .entry-content ul,
 .entry-content ol {	
@@ -1234,11 +1239,9 @@ a#scroll-up:hover {
 	padding-left: 4%;
 }
 .post .entry-meta {
-	border: 1px solid $border;
 	font-size: 14px;
 	color: #666666;
-	font: 'Lato', sans-serif;
-	margin: 0 0 20px;
+	margin: 0;
 }
 .post .entry-meta .by-author,
 .post .entry-meta .date,
