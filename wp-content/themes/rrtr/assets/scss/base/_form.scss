@@ -171,6 +171,7 @@
 
 .form-submit {
 	line-height: 1;
+	float: left;
 				
 	input {
 		text-align: left;
@@ -194,14 +195,15 @@
 
 div.wpcf7-response-output {
 	line-height: 1;
-	padding: 4%;
+	padding: 2%;
+	float: right;
 
 	&.wpcf7-validation-errors {
-		color: red;
+		color: yellow;
 	}
 	
 	&.wpcf7-mail-sent-ok {
-		color: green;
+		color: #35ff50;
 	}
 	&.wpcf7-display-none{
 		display: none;
@@ -211,7 +213,7 @@ div.wpcf7-response-output {
 
 
 span.wpcf7-not-valid-tip {
-	color: red;
+	color: yellow;
 	position: absolute;
 	top: -12px;
 	font-size: 12px;

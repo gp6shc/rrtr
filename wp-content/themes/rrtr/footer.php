@@ -46,24 +46,24 @@
 										ref[i].firstChild.firstChild.firstChild.innerHTML = "How did you hear about us...";									
 									}
 									
-								var refOther = ref[1].firstChild.firstChild;
+								var refOther = ref[0].firstChild.firstChild;
+								var otherField = document.getElementsByClassName("form-other")[0];
 								
 								function onSelectionChange () {
 									var selectedOption = refOther.options[refOther.selectedIndex];
-							    	if(selectedOption.value == "Other") {
-							    	   ref[1].style.width = "48%";
-							    	   document.getElementsByClassName("form-other")[1].style.display = "block";
+							    	if(selectedOption.value == "Other:") {
+										ref[0].style.width = "48%";
+										otherField.style.display = "block";
 							    	}else{
-								    	ref[1].style.width = "100%";
-								    	document.getElementsByClassName("form-other")[1].style.display = "none";
+										ref[0].style.width = "100%";
+										otherField.style.display = "none";
 							    	}
 								}
-								
+
 								refOther.addEventListener('change', onSelectionChange, false);
 								
 							</script>
-
-		    			</nav>
+						</nav>
 					</div>
 				</div>
 			</div>			
