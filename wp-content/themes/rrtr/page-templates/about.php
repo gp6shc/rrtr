@@ -17,10 +17,9 @@
 					<?php do_action( 'spacious_before_post_content' ); ?>
 					<div class="team entry-content">
 						<?php the_content(); ?>
-						
-						<!-- Team Members
+						<!-- Team Member 1 
 						<h1 class="feature">Meet Our Leadership Team</h1>
-						
+
 						<div class="tg-one-half">
 							<img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/about-team1.png"/>
 						</div>
