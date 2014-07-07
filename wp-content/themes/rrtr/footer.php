@@ -26,27 +26,42 @@
 																 ) );
 								}
 							?>
-							<script>
+							<script type="text/javascript">
 								var subject = document.getElementsByClassName('form-subject');
 									for (var i = 0; i < subject.length; i++) {
 										subject[i].firstChild.firstChild.firstChild.innerHTML = "I need an estimate on...";
 									}
-							
+									
+								var faGlyph = document.getElementsByClassName('wpcf7-list-item');
+								    for (var i = 0; i < faGlyph.length; i++) {
+								        if(i%2 === 0) {
+								        	faGlyph[i].firstChild.innerHTML = "&#xf003;";
+								        }else{
+								        	faGlyph[i].firstChild.innerHTML = "&#xf095;";
+									    }
+									}
+										
 								var ref = document.getElementsByClassName('form-referral');
 									for (var i = 0; i < ref.length; i++) {
-										ref[i].firstChild.firstChild.firstChild.innerHTML = "How did you hear about us...";
+										ref[i].firstChild.firstChild.firstChild.innerHTML = "How did you hear about us...";									
 									}
-
-								var faGlyph = document.getElementsByClassName('wpcf7-list-item');
-									for (var i = 0; i < faGlyph.length; i++) {
-										if(i%2 === 0) {
-											faGlyph[i].firstChild.innerHTML = "&#xf003;";
-										}else{
-											faGlyph[i].firstChild.innerHTML = "&#xf095;";
-										}
-										
-									}
-								</script>
+									
+								var refOther = ref[1].firstChild.firstChild;
+								
+								function onSelectionChange () {
+									var selectedOption = refOther.options[refOther.selectedIndex];
+							    	if(selectedOption.value == "Other") {
+							    	   ref[1].style.width = "48%";
+							    	   document.getElementsByClassName("form-other")[1].style.display = "block";
+							    	}else{
+								    	ref[1].style.width = "100%";
+								    	document.getElementsByClassName("form-other")[1].style.display = "none";
+							    	}
+								}
+								
+								refOther.addEventListener('change', onSelectionChange, false);
+								
+							</script>
 
 		    			</nav>
 					</div>
