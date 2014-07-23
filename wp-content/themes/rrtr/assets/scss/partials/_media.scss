@@ -17,11 +17,32 @@ $phone-landscape: 480px;
 -------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
 	#header-logo-image{
-		max-width: 78%;
+		max-width: 96%;
 	}
 	.inner-wrap{
+		max-width: 84%;
 		width: 84%;
+		zoom: .85;
+		-ms-zoom: .85;
+		-webkit-zoom: .85;
+		transform-origin: 50% 0;
+		-moz-transform: scale(0.85,.85);
+		-moz-transform-origin: 50% 0;
+		-ms-transform: scale(0.85,.85);
+		-ms-transform-origin: 100% 0;
 	}
+	.ie .inner-wrap{ // fixes IE9 bug
+		zoom:1!important;
+		-ms-zoom:1!important;
+		transform:none!important;
+		transform-origin:50% 0;
+		-ms-transform-origin:50% 0
+	}
+	@-moz-document url-prefix() { //fixes zoom fix issue
+	    #main {
+	    	margin-bottom: -150px; 
+	    }
+    }
 	.main-navigation {
 		padding-top: 40px;
 	}
@@ -37,6 +58,9 @@ $phone-landscape: 480px;
 	}
 	.pushin{
 		padding: 0px 120px;
+	}
+	.fa-stack{
+		margin: 0 80px;
 	}
 
 }

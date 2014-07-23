@@ -4,19 +4,55 @@
  *
  */
 ?>
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="ie"> <![endif]-->
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="Rapid Response Team Roofing - Florida Residential Roofing Experts. Your trusted roofing source, featuring expert roofers, emergency response capabilities, and guaranteed craftsmanship at the lowest price. Guaranteed. We're here for you 24/7." />
+<meta name="keywords" content="florida residential roofing, florida roof repair, florida roof restoration, new roof florida, roof damage florida, florida storm damage recovery, florida storm roof damage, rapid response roofing florida, rapid response team, florida roofing experts, florida wind damage rapair, roof repair florida, i need a new roof in florida, roofing help in florida" />
+<meta name="robots" content="index,follow" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="HandheldFriendly" content="True" />
 <meta name="MobileOptimized" content="320" />
-<meta name="google-site-verification" content="KHprSrKRY-muVicQpPYBKdCNXxi9mOtMLfhJcRMlfrc" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <?php wp_head(); ?>
+<!-- SS tracking -->
+<script type="text/javascript">
+var _ss = _ss || [];
+_ss.push(['_setDomain', 'https://koi-RI8T90.sharpspring.com/net']);
+_ss.push(['_setAccount', 'KOI-UHADEW']);
+_ss.push(['_trackPageView']);
+(function() {
+    var ss = document.createElement('script');
+    ss.type = 'text/javascript'; ss.async = true;
+    ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-RI8T90.sharpspring.com/client/ss.js?ver=1.1.1';
+    var scr = document.getElementsByTagName('script')[0];
+    scr.parentNode.insertBefore(ss, scr);
+})();
+</script>
+
+<!-- FB pixel tracking -->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '781698898527207']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=781698898527207&amp;ev=NoScript" /></noscript>
 </head>
 
 <body <?php body_class(); ?>>

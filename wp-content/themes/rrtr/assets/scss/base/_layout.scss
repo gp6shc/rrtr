@@ -15,7 +15,6 @@ body {
 }
 
 
-
 /* HEADINGS */
 h1, h2, h3, h4, h5, h6 { 
 	padding-bottom: 18px;
@@ -242,6 +241,7 @@ button:hover {
 }
 .previous a,
 .next a {
+	display: none;
    color: $white;
    padding: 10px 25px;
    cursor: pointer;
