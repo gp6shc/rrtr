@@ -44,24 +44,36 @@ $phone-landscape: 480px;
 	    }
     }
 	.main-navigation {
-		padding-top: 40px;
+		padding-top: 30px;
 	}
 	.flexslider {
-	    margin: 0 0 0 1px;
+	    margin: 0 -1px 0 0;
 	    padding: 0;
 	}
 	p.home{
 		padding: 0px 100px;
 	}
 	#top-wrapper{
-		height: 534px; //fixed height for slider image height issue (will revert to height:auto below this brk pt.)
+		height: 534px; //fixed height for slider image height issue (will revert to "height:auto;" below this brk pt.)
 	}
 	.pushin{
-		padding: 0px 120px;
+		padding: 0px 40px;
+		margin-top: -10px;
 	}
 	.fa-stack{
 		margin: 0 80px;
 	}
+	.form-name input, .form-number input, .form-mail input, .form-select select, .form-pref p, .form-comment textarea{
+		margin-bottom: 15px;
+	}
+	input[type="text"], input[type="email"], input[type="password"], .form-number input, .form-select select{
+		line-height: 26px;
+		height: 26px;
+	}
+	textarea{
+		height: 85px;
+	}
+
 
 }
 
@@ -143,35 +155,3 @@ $phone-landscape: 480px;
 
 }
 
-
-
-
-
-/* Fixing the form text */
-@media (max-width:1300px) and (min-width:1167px) {
-	.form h4{
-		font-size: 1.2em;
-	}
-	.form p, #realtor h4{
-		font-size: 15px;
-		line-height: 20px!important;
-	}
-}
-@media (max-width:1166px) and (min-width:1068px) {
-	.form h4{
-		font-size: 1.1em;
-	}
-	.form p, #realtor h4{
-		font-size: 14px;
-		line-height: 18px!important;
-	}
-}
-@media (max-width:1067px) and (min-width:769px) {
-	.form h4{
-		font-size: 1.0em;
-	}
-	.form p, #realtor h4{
-		font-size: 13px;
-		line-height: 16px!important;
-	}
-}

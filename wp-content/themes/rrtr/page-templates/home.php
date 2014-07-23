@@ -15,27 +15,25 @@
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<?php do_action( 'spacious_before_post_content' ); ?>
+					
+					
 					<div class="clearfix">
+					
 					<div id="top-wrapper">
 						<!-- Homepage Slider -->
 						<div class="grid_8">
 							<?php echo do_shortcode('[rsSlider id="35"]'); ?>
-						</div>
-						
+						</div><!--//.grid_8-->
+			
 						<!-- Request Form -->
 						<div class="grid_4 omega form-wrap">
 							<div class="form">
 								<h4><b>ROOF INSPECTION & ESTIMATE</b></h4>
 								<p>Fill out this quick form and we will contact you to schedule your FREE roof inspection and estimate.</p>
 								<?php echo do_shortcode( '[contact-form-7 id="75" title="Home Page Estimate Submission"]' ); ?>
-							</div>
-							
-							<div id="realtor">
-								<h4><b>REALTORS: DON'T LOSE A SALE BECAUSE OF AN AGING ROOF</b></h4>
-								<a href="<?php echo home_url(); ?>/realtors">LEARN MORE</a>
-							</div>
-						</div>
-					</div>
+							</div><!--//.form-->
+						</div><!--//.grid_4-->
+					</div><!--//#top-wrapper-->
 					
 					
 						<div class="clearfix"></div>

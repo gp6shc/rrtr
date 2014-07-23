@@ -69,6 +69,16 @@
 		</footer>
 		<a href="#masthead" id="scroll-up"></a>	
 	</div><!-- #page -->
+	
+	<script type="text/javascript">
+	jQuery(document).ready(function() {
+	  jQuery('.flexslider').flexslider({ 
+	    slideshow: false, //removed true to manually slide
+	    animation: "slide",
+	    slideDirection: "horizontal" 
+	  });
+	});
+	</script>
 	<!-- SS form tracking -->
 	<script type="text/javascript">
     var __ss_noform = __ss_noform || [];

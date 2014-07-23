@@ -93,10 +93,12 @@ aside h3 {
 }
 
 #containerFlexDiv {
+	height: auto!important; /* fixes FF issue on mobile */
     position: relative;
 }
 
 .loading_rsSlider {
+	display: none!important;
     background: url('../img/loading.gif');
     width: 15px;
     height: 15px;
@@ -283,10 +285,12 @@ html[xmlns] .slides {
 
 /* Control Nav */
 .flex-control-nav  {
-	display: none!important;
-    width:  100%;
+	 display: block;
+	 z-index: 9999999;
+	 background: transparent;
+     width:  100%;
      position:  absolute;
-     bottom:  -40px;
+     bottom:  0px;
      text-align:  center;
 }
 

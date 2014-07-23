@@ -12,7 +12,7 @@
 	max-width: 100%;
 	margin: 0 auto;
 	margin-bottom: 30px;
-	background-color: $brand-accent;
+	background-color: $brand-main;
 	overflow: hidden;
 }
 .form {
@@ -24,16 +24,16 @@
 	
 	h4 {
 		color: white;
-		font-size: 1.3em;
+		font-size: 1.2em;
 		line-height: 1;
-		padding: 0 0 5px 0;
+		padding: 0 0 10px 0;
 	
 	}
 	
 	p {
 		color: white;
-		font-size: 16px;
-		line-height: 18px!important;
+		font-size: 18px;
+		line-height: 22px!important;
 		
 	}
 	
@@ -101,7 +101,7 @@
 	
 	p {
 		display: inline-block;
-		font-size: 14px;
+		font-size: 15px;
 		text-align: left;
 		margin-bottom: 5px;
 	}
@@ -109,9 +109,19 @@
 	.wpcf7-list-item {
 		font-family: FontAwesome;
 		font-style: normal;
-		padding-left: 10px;
+		padding-left: 5px;
 	}
 
+}
+.form-other {
+    width: 48%;
+    float: right;
+    line-height: 1;
+    display: none;
+    input{
+	    width: 96%;
+	    margin-bottom: 10px;
+    }
 }
 
 .form-select {
@@ -124,6 +134,7 @@
 	}
 
 	select {
+		float: left;
 		width: 100%;
 		margin-bottom: 10px;
 		border: 1px solid #DDDDDD;
@@ -131,6 +142,10 @@
 		color: #666666;
 		padding: 0; // set to 0 from Firefox/IE issue
 	}
+}
+
+.wpcf7-form-control-wrap {
+	display: inline;
 }
 
 .form-subject {
@@ -234,4 +249,55 @@ span.wpcf7-not-valid-tip {
 			box-shadow: 0 0 2px rgba(0,0,0,0.6);
 		}
 	}
+}
+
+
+
+// validation errors fix from SharpSpring script bug
+form.wpcf7-form.invalid {
+    display: block;
+    margin: -19px 0 -13px;
+}
+div.wpcf7-response-output {
+    line-height: 1;
+    display: inline-block;
+}
+div.wpcf7-response-output.wpcf7-validation-errors {
+    color: #ff0;
+    position: relative;
+    margin-top: 14px;
+}
+#top-wrapper .wpcf7-response-output.wpcf7-validation-errors { // sharpspring breaks ajax errors, heres a fix
+    display: block;
+    position: relative;
+    height: 1px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: -10px;
+    width: 102%;
+    font-size: 12px;
+    color: yellow;
+}
+input[type=submit] .wpcf7-response-output.wpcf7-validation-errors {
+    margin-bottom: 12px;
+}
+div.wpcf7-response-output.wpcf7-mail-sent-ok {
+    color: green;
+    line-height: 17px;
+    position: absolute;
+    background-color: $brand-main;
+    margin-top: -43px;
+    font-size: 17px;
+}
+div.wpcf7-response-output.wpcf7-display-none {
+    display: none;
+}
+span.wpcf7-not-valid-tip {
+    color: #ff0;
+    top: -8px;
+    font-size: 12px;
+    line-height: 1;
+    display: block;
+    position: relative;
+    text-align: left;
 }

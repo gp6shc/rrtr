@@ -21,6 +21,7 @@
 <meta name="MobileOptimized" content="320" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <?php wp_head(); ?>
+
 <!-- SS tracking -->
 <script type="text/javascript">
 var _ss = _ss || [];
