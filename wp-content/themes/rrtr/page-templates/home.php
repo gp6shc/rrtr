@@ -47,7 +47,7 @@
 								<a href="<?php echo home_url(); ?>/what-to-expect" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature1.jpg"></a>
 							</div>
 							<div class="grid_3">
-								<a href="<?php echo home_url(); ?>/what-to-expect" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature2.jpg"></a>
+								<a href="<?php echo home_url(); ?>/realtors" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature2.jpg"></a>
 							</div>
 							<div class="grid_3">
 								<a href="<?php echo home_url(); ?>/what-to-expect/#warranty" alt=""><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/home-feature3.jpg"></a>

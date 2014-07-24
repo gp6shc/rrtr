@@ -97,7 +97,7 @@ function rsSlider_shortcode($atts) {
 
 							$out .= '<li>';
 								$out .= '<div class="rsSliderWrap">';
-									$out .= '<img src='.$imgSrc.' alt="'.$title.'" />';
+									$out .= '<a href="'.$href.'" ><img src='.$imgSrc.' alt="'.$title.'" />';
 									
 									if($hide == false):
 										$out .= '<div class="rsSliderContent">';
@@ -119,7 +119,7 @@ function rsSlider_shortcode($atts) {
 		$out .= '
 				 </ul>
 				</div>
-			  </section>
+			  </section></a>
 		   </div>';
 		
 	return $out;

@@ -2251,7 +2251,7 @@ body .jbmww_wrapper p { margin: 0; padding: 0; }
 
 .jbmww_wrapper .jbww_head_today_forecast_digit { float: right; }
 
-.jbmww_wrapper .jbww_head_today_forecast_digit p { font-family: Arial, Helvetica, sans-serif; font-size: 60px; color: #FFF; text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4); font-weight: bold; line-height: 110px; width: 122px; text-align: center; }
+.jbmww_wrapper .jbww_head_today_forecast_digit p { font-family: Arial, Helvetica, sans-serif; font-size: 60px; color: #FFF; text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4); font-weight: bold; line-height: 110px; width: 122px; text-align: center; margin-top: 30px; }
 
 .jbmww_wrapper .jbww_head_today_wind_direction { float: left; margin-top: 20px; margin-left: 15px; }
 
