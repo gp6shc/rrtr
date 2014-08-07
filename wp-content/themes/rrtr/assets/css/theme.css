@@ -986,11 +986,11 @@ ul.sidebar-menu li, ul.sidebar-menu li a { color: white; text-transform: upperca
 
 .screen-reader-response { display: none; }
 
-.form-name { width: 48%; float: left; line-height: 1; }
-.form-name input { width: 96%; margin-bottom: 10px; }
+.form-name, .form-email { width: 48%; float: left; line-height: 1; }
+.form-name input, .form-email input { width: 96%; margin-bottom: 10px; }
 
-.form-number { width: 48%; float: right; line-height: 1; }
-.form-number input { width: 96%; height: 20px; margin-bottom: 10px; }
+.form-number, .form-zip { width: 48%; float: right; line-height: 1; }
+.form-number input, .form-zip input { width: 96%; height: 20px; margin-bottom: 10px; }
 
 .form-mail { width: 100%; clear: both; line-height: 1; }
 .form-mail input { width: 98%; padding: 1%; margin-bottom: 10px; }
@@ -1092,6 +1092,7 @@ span.wpcf7-not-valid-tip { color: #ff0; top: -8px; font-size: 12px; line-height:
   #jbweatherwidget-2 { display: none; }
   #enhancedtextwidget-2 { display: block; position: relative; max-width: 100%; margin: 0 auto; text-align: center; }
   .form { width: 92%; padding: 15px 4%; }
+  .form-name, .form-number, .form-email, .form-zip { width: 100%; }
   #feature-boxes .grid_3 { width: 48%; margin: 0 1% 2% 1%; } }
 /* Breakpoint description - below 480 (landscape)
 -------------------------------------------------------------- */

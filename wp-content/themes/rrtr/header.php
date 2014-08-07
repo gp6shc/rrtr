@@ -22,6 +22,10 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <?php wp_head(); ?>
 
+<!-- ph tracking -->
+<script type="text/javascript" src="<?php bloginfo('stylesheet_directory') ?>/assets/js/phone.js"></script>
+
+
 <!-- SS tracking -->
 <script type="text/javascript">
 var _ss = _ss || [];

@@ -53,7 +53,7 @@
 	display: none;
 }
 
-.form-name {
+.form-name, .form-email {
 	width: 48%;
 	float: left;
 	line-height: 1;
@@ -64,7 +64,7 @@
 	}
 }
 
-.form-number {
+.form-number, .form-zip {
 	width: 48%;
 	float: right;
 	line-height: 1;

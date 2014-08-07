@@ -128,6 +128,9 @@ $phone-landscape: 480px;
 		width: 92%;
 		padding: 15px 4%;
 	}
+	.form-name, .form-number, .form-email, .form-zip{
+		width: 100%;
+	}
 	#feature-boxes .grid_3{
 		width: 48%;
 		margin: 0 1% 2% 1%;
